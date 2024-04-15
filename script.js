@@ -6,7 +6,7 @@ document.getElementById('calculate-btn').addEventListener('click', function() {
     var differenceInTime = endDate.getTime() - startDate.getTime();
     var differenceInDays = differenceInTime / (1000 * 3600 * 24);
 
-    document.getElementById('result').textContent = 'O período entre as datas é de ' + differenceInDays + ' dias.';
+    document.getElementById('result').textContent = 'Falta ' + differenceInDays + ' para o seu aniversário.';
   } else {
     document.getElementById('result').textContent = 'Por favor, insira datas válidas.';
   }
