@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #f4f4f4; - COR fundo
   margin: 0;
   padding: 0;
   display: flex;
@@ -10,9 +10,9 @@ body {
 }
 
 .container {
-  width: 400px;
-  background-color: #fff;
-  padding: 20px;
+  width: 600px;
+  background-color: #832c5c;
+  padding: 100px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -20,6 +20,9 @@ body {
 
 h1 {
   text-align: center;
+  color: #e9e6e0;
+  font-size: 40px;
+
 }
 
 div {
@@ -28,6 +31,8 @@ div {
 
 label {
   font-weight: bold;
+  font-size: 50px;
+  color: #e9e6e0;
 }
 
 input[type="date"] {
@@ -35,18 +40,21 @@ input[type="date"] {
   padding: 8px;
   border-radius: 5px;
   border: 1px solid #ccc;
+  font-size: 40px;
 }
 
 button {
   display: block;
   width: 100%;
   padding: 10px;
-  background-color: #007bff;
+  background-color: #3dc235;
   color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  font-size: 40px;
+
 }
 
 button:hover {
@@ -55,6 +63,8 @@ button:hover {
 
 #result {
   margin-top: 20px;
-  font-size: 18px;
+  font-size: 40px;
   text-align: center;
+  font-weight: bold;
+  color: #e9e6e0;
 }
